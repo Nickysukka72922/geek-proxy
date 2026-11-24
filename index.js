@@ -4,7 +4,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 const app = express();
 
 app.use('/', createProxyMiddleware({
-  target: 'https://github.io',
+  target: 'https://nickysukka72922.github.io',
   changeOrigin: true,
   followRedirects: true
 }));
